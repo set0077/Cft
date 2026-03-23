@@ -1,34 +1,4 @@
 """
-Primer Programa modificacion de texto
-"""
-
-Texto = ("INsErTar tExtO 2077")
-print(Texto.lower())
-print(Texto.upper())
-print(Texto.find("20"))
-
-
-lol = (Texto.center(50, "-"))
-print(lol.upper())
-
-"""
-Segundo programa de python Aritmetica
-"""
-
-a = 45
-b = 138
-
-suma = a + b
-resta = a - b
-multiplicacion = a * b
-division = a / b
-
-print(suma)
-print(resta)
-print(multiplicacion)
-print(division)
-
-"""
 Ejemplo de Funcion creada
 """
 
@@ -57,7 +27,7 @@ def aritmetica(num1, num2, op):
 
 
 texto =("Main proyect")
-print(Texto.center(50, "-"))
+print(texto.center(50, "-"))
 var = int(input("ingrese el primer numero: "))
 var2 = int(input("ingrese el segundo numero: "))
 var3 =int(input("ingrese una opcion: "))
