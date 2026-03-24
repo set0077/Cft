@@ -4,6 +4,10 @@ Ejemplo de Funcion creada
 
 
 def aritmetica(num1, num2, op):
+        """
+        Probando los textos dentro de variables
+        cualquier cosa nose XD
+        """
     
         if op == 1:
             suma = num1 + num2
@@ -37,3 +41,4 @@ var2 = int(input("ingrese el segundo numero: "))
 var3 =int(input("ingrese una opcion: "))
 print("El resultado es:")
 aritmetica(var, var2, var3)
+
