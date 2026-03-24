@@ -18,8 +18,12 @@ def aritmetica(num1, num2, op):
             print(multiplicacion)
            
         elif op == 4:
+            retorno = -1
             division = num1 / num2
-            print(division)
+            if num1 == 0:
+                 print(retorno)
+            else: 
+                print(division)
           
         else:
             print("Ingrese una opcion valida porfavor")
